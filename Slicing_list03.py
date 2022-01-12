@@ -6,4 +6,5 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    return
+    list2 = list1 + list1[-1::-1]
+    return list2
